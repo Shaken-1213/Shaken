@@ -14,7 +14,7 @@ def gen_pass(pass_length):
         password += random.choice(elements)
     return password
 
-bot = telebot.TeleBot("8418297671:AAFWgKwidmwaTg5eWTTSKgTh4_p-XGDnrCg")
+bot = telebot.TeleBot("TOKEN")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
